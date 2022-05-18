@@ -1,5 +1,5 @@
 ---
-- hosts: 192.168.1.160, 192.168.1.75, 192.168.1.84, 192.168.1.93
+- hosts: 192.168.1.75, 192.168.1.84, 192.168.1.93
   name: Install MariaDB database server and start it
   become: yes
   tasks:
